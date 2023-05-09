@@ -15,12 +15,12 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 				},
 		snippets=SnippetType.CAMELCASE,		
 		features="src/test/resources/features",
-				tags=" ",
+				tags="@login",
 			glue="cucumber.stepDefinations",
-		//dryRun=false,
+		dryRun=false,
 		monochrome = true
 		
 		)
-public class RegressionRunner {
+public class StepRunner {
 
 }
