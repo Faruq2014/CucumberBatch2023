@@ -1,15 +1,12 @@
 #Author: Faruq
 #Keywords Summary :smoke tag is for smoke suites
-
-@smoke
+@login
 Feature: Login Feature
 
-  @login
-  Scenario: valid user name and password 
-   Given user open browser and app
+  @smoke
+  Scenario: valid user name and password
+    Given user open browser and app
     When user enter userName
     And user enter password
     And user click on login button
     Then I validate the landing page
-
- 

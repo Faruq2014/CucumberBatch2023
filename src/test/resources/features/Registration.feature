@@ -1,8 +1,8 @@
 #Author: your.email@your.domain.com
-@tag
+@Registration
 Feature: Registration page
 
-  @tag1
+  @smoke
   Scenario: I want to build a registration page so that I can collect users
     Given User open app
     When I complete registration page
