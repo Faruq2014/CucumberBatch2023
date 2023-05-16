@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 				},
 		snippets=SnippetType.CAMELCASE,		
 		features="src/test/resources/features",
-				tags="@login",
+				tags="@Regression",
 			glue="cucumber.stepDefinations",
 		dryRun=false,
 		monochrome = true

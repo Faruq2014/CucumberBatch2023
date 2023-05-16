@@ -1,6 +1,4 @@
-#Author: Faruq
-#Keywords Summary :smoke tag is for smoke suites
-@login
+@Regression @login
 Feature: Login Feature
 
   @smoke

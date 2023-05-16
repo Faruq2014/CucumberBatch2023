@@ -1,5 +1,4 @@
-#Author: your.email@your.domain.com
-@Registration
+@Registration @Regression
 Feature: Registration page
 
   @smoke
